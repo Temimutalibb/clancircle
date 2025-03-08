@@ -41,7 +41,7 @@ function Policy() {
           <div className="text-sm text-zinc-500 leading-6">
             We use the information we collect to:
             <ul>
-              <li>Provide and improve our app's features and services.</li>
+              <li>Provide and improve our app&apos;s features and services.</li>
               <li>
                 Communicate with you, including sending updates, notifications,
                 and promotional materials.
@@ -55,10 +55,10 @@ function Policy() {
 
           <h2 className="font-bold text-xl">4. Information Sharing</h2>
           <div className="text-sm text-zinc-500 leading-6">
-            We don't share information with Third parties.
+            We don&apos;t share information with Third parties.
             <br />
             <b>Legal Requirements:</b> When required by law or to protect our
-            rights and users' safety.
+            rights and users&apos; safety.
           </div>
 
           <h2 className="font-bold text-xl">5. Security Measures</h2>
