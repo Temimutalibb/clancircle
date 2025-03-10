@@ -3,10 +3,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen mt-40 p-8 pb-20 gap-16 sm:p-20  mt-40  font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col mt-100 gap-8 row-start-1 items-center sm:items-start">
         <Image
-          className=""
           src="/icon432.png"
           alt="clan circle  logo"
           width={180}
@@ -47,7 +46,7 @@ export default function Home() {
         </div>
       </main>
 
-      <div className="row-start-3 flex gap-6  items-center justify-center overflow-hidden">
+      <div className="row-start-3 flex gap-4  items-center justify-center overflow-hidden">
         <a
           href="https://www.facebook.com/share/15woh1KVp5/?mibextid=wwXIfr"
           target="_blank"
@@ -122,7 +121,7 @@ export default function Home() {
 
         <Link
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/whitepaper"
+          href="/about"
         >
           <Image
             aria-hidden
@@ -145,7 +144,21 @@ export default function Home() {
             width={16}
             height={16}
           />
-          about
+          terms
+        </Link>
+
+        <Link
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="/faq"
+        >
+          <Image
+            aria-hidden
+            src="/file.svg"
+            alt="File icon"
+            width={16}
+            height={16}
+          />
+          FAQ
         </Link>
 
         <a
