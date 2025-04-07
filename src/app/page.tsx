@@ -21,13 +21,11 @@ export default function Home() {
             every click.
           </p>
           <div className="flex gap-1 flex-wrap">
-            <a
-              href="#playstore"
-              className="rounded-full text-xs bg-blue-800 h-7 w-20 p-1 text-center text-white"
-              aria-label="Get Started on Playstore"
-            >
-              Get Started
-            </a>
+            <button className="rounded-full text-xs  bg-blue-800  h-7 w-20 p-1 text-white">
+              <a href="#playstore" aria-label="Get Started on Playstore">
+                Get Started
+              </a>
+            </button>
             <button
               className="rounded-full text-xs bg-gray-800 h-7 w-20 p-1 text-white"
               aria-label="Learn more about Clan Circle"
