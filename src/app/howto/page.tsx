@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function About() {
+function Howto() {
   return (
     <div>
       <div className="w-[80%] mx-auto text-gray-900">
@@ -19,12 +19,9 @@ function About() {
             discover new content, or grow your audience, Clan Circle makes it
             easy and rewarding.
           </div>
-          <Link href="/howto">
-            <h2 className="font-bold text-l">How to use Clan Circle</h2>
-          </Link>
-
+          <h2 className="font-bold text-l">How to use Clan Circle</h2>
           <div className="text-sm text-zinc-500 leading-6"></div>
-          <h2 className=" text-l">Need Help?</h2>
+          <h2 className="font-bold text-l">Need Help?</h2>
           <div>
             check out our{" "}
             <b>
@@ -44,4 +41,4 @@ function About() {
   );
 }
 
-export default About;
+export default Howto;

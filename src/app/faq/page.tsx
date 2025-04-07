@@ -3,7 +3,7 @@ import Image from "next/image";
 function Faq() {
   return (
     <div>
-      <div className="w-[80%] mx-auto">
+      <div className="w-[80%] mx-auto text-gray-900">
         <div className=" bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 m-4  space-y-3 relative overflow-hidden">
           <div className="w-24 h-24 bg-blue-400 rounded-full absolute -right-5 -top-7">
             <div className="absolute bottom-6 left-7 text-white text-2xl">
@@ -35,7 +35,10 @@ function Faq() {
 
           <div className="text-sm text-zinc-500 leading-6">
             <ul>
-              <li>Tap the Create Circle button.</li>
+              <li>Tap the my circle button in your home screen.</li>
+              <li>
+                There you will see all your circles and can create a new one.
+              </li>
               <li>Choose a name, description, and category for your Circle.</li>
               <li>Set privacy preferences and start sharing content.</li>
             </ul>
@@ -44,9 +47,12 @@ function Faq() {
           <h2 className="font-bold text-xl">4. How do I follow a Circle?</h2>
           <div className="text-sm text-zinc-500 leading-6">
             <ul>
-              <li>Browse public Circles in the app.</li>
+              <li>
+                You can search for Circle or click the explore button to see
+                random Circles.
+              </li>
               <li>Tap Follow on any Circle you’re interested in.</li>
-              <li>You’ll see content from followed Circles in your feed.</li>
+              <li>You’ll get notified if the circle owner post a link.</li>
             </ul>
           </div>
 
@@ -55,7 +61,8 @@ function Faq() {
           <div className="text-sm text-zinc-500 leading-6">
             <ul>
               <li>
-                Engage with content by sharing and interacting within Circles.
+                Engage with content by sharing and interacting Links within
+                Circles.
               </li>
               <li>Earn rewards based on clicks and ad interactions.</li>
             </ul>
@@ -66,8 +73,8 @@ function Faq() {
           </h2>
 
           <div className="text-sm text-zinc-500 leading-6">
-            Yes! Use the Invite Friends feature to send them a link to download
-            and join the app.
+            Yes! gives users your referral code and earn coins for each user you
+            invite.
           </div>
 
           <h2 className="font-bold text-xl">
@@ -76,7 +83,7 @@ function Faq() {
           <div className="text-sm text-zinc-500 leading-6">
             If you want to delete your account:
             <ul>
-              <li>Go to Settings in the app.</li>
+              <li>Go to your profile screen.</li>
               <li>Select Delete Account and follow the instructions.</li>
               <li>
                 This will permanently remove your account and all associated
@@ -100,7 +107,7 @@ function Faq() {
           <div className="text-sm text-zinc-500 leading-6">
             Yes, you can contact us via the Support section in the app or email
             us at:
-            <div className="mt-5 flex gap-6  items-center justify-center overflow-hidden">
+            <div className="mt-5 flex gap-6 bg-gray-900 items-center justify-center overflow-hidden">
               <a
                 href="https://www.facebook.com/share/15woh1KVp5/?mibextid=wwXIfr"
                 target="_blank"

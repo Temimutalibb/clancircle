@@ -4,7 +4,7 @@ import Link from "next/link";
 function Terms() {
   return (
     <>
-      <div className="w-[80%] mx-auto">
+      <div className="w-[80%] mx-auto text-gray-900">
         <div className=" bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 m-4  space-y-3 relative overflow-hidden">
           <div className="w-24 h-24 bg-blue-400 rounded-full absolute -right-5 -top-7">
             <div className="absolute bottom-6 left-7 text-white text-2xl">
@@ -55,7 +55,7 @@ function Terms() {
             can be found at{" "}
             <Link
               className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-              href="/whitepaper"
+              href="/policy"
             >
               <Image
                 aria-hidden

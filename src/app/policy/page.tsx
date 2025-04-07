@@ -3,7 +3,7 @@ import Image from "next/image";
 function Policy() {
   return (
     <>
-      <div className="w-[80%] mx-auto">
+      <div className="w-[80%] mx-auto text-gray-900">
         <div className=" bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 m-4  space-y-3 relative overflow-hidden">
           <div className="w-24 h-24 bg-blue-400 rounded-full absolute -right-5 -top-7">
             <div className="absolute bottom-6 left-7 text-white text-2xl">
@@ -92,7 +92,7 @@ function Policy() {
           <div className="text-sm text-zinc-500 leading-6">
             If you have any questions or concerns about this Privacy Policy,
             please contact us at
-            <div className="row-start-3 flex gap-6  items-center justify-center overflow-hidden">
+            <div className="row-start-3 flex gap-6 bg-gray-900 items-center justify-center overflow-hidden">
               <a
                 href="https://www.facebook.com/share/15woh1KVp5/?mibextid=wwXIfr"
                 target="_blank"

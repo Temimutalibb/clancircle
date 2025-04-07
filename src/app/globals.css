@@ -16,15 +16,20 @@
 
 body {
   color: var(--foreground);
-  background: lightgray;
+  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  padding: 5%;
+  padding-top: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .head {
   background: linear-gradient(45deg, blue, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
