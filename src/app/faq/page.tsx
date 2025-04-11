@@ -61,10 +61,15 @@ function Faq() {
           <div className="text-sm text-zinc-500 leading-6">
             <ul>
               <li>
-                Engage with content by sharing and interacting Links within
-                Circles.
+                Engage with content by sharing and interacting with links within
+                Circles
               </li>
               <li>Earn rewards based on clicks and ad interactions.</li>
+              <li>
+                Create a Circle and earn rewards for links clicked in your
+                Circle.
+              </li>
+              <li>Participate in the daily rewards program to earn more.</li>
             </ul>
           </div>
 
@@ -73,8 +78,8 @@ function Faq() {
           </h2>
 
           <div className="text-sm text-zinc-500 leading-6">
-            Yes! gives users your referral code and earn coins for each user you
-            invite.
+            Yes! Share your referral code with users to earn coins for each user
+            you invite, while your referred users earn coins too.
           </div>
 
           <h2 className="font-bold text-xl">

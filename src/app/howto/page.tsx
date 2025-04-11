@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 function Howto() {
   return (
     <div>
@@ -11,30 +9,6 @@ function Howto() {
             </div>
           </div>
           <div className=" text-violet-400 text-sm ">{"About"}</div>
-
-          <div className="text-sm text-zinc-500 leading-6">
-            Clan Circle is a social engagement platform that allows users to
-            create and follow Circles, share content, and earn rewards through
-            interactions. Whether you’re looking to increase engagement,
-            discover new content, or grow your audience, Clan Circle makes it
-            easy and rewarding.
-          </div>
-          <h2 className="font-bold text-l">How to use Clan Circle</h2>
-          <div className="text-sm text-zinc-500 leading-6"></div>
-          <h2 className="font-bold text-l">Need Help?</h2>
-          <div>
-            check out our{" "}
-            <b>
-              {" "}
-              <Link
-                className=" hover:underline hover:underline-offset-4"
-                href="/faq"
-              >
-                <b>FAQ</b>
-              </Link>
-            </b>{" "}
-            or contact support for assistance{" "}
-          </div>
         </div>
       </div>
     </div>

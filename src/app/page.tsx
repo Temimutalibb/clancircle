@@ -13,28 +13,28 @@ export default function Home() {
           Clan Circle - Turn Clicks into Crypto
         </h1>
         <div className="w-[60%] flex flex-col gap-3">
-          <h1 className="text-xl font-bold text-white">
+          <h1 className="text-xl font-bold text-white  md:text-2xl">
             Turn Clicks into Crypto - Earn $CLAN While Growing Your Audience!
           </h1>
-          <p className="text-xs">
+          <p className="text-xs md:text-lg md:text-gray-500">
             Share links in Circles, get more engagement, and earn rewards on
             every click.
           </p>
           <div className="flex gap-1 flex-wrap">
-            <button className="rounded-full text-xs  bg-blue-800  h-7 w-20 p-1 text-white">
+            <button className="rounded-full text-xs  bg-blue-800  h-7 w-20 p-2 text-white">
               <a href="#playstore" aria-label="Get Started on Playstore">
                 Get Started
               </a>
             </button>
             <button
-              className="rounded-full text-xs bg-gray-800 h-7 w-20 p-1 text-white"
+              className="rounded-full text-xs bg-gray-800 h-7 w-20 p-2 text-white"
               aria-label="Learn more about Clan Circle"
             >
               Learn More
             </button>
           </div>
         </div>
-        <div className="w-[40%]">
+        <div className="w-[40%]  flex justify-end">
           <Image
             src="/icon432.png"
             alt="Clan Circle logo"

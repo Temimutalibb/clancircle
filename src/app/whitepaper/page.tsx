@@ -15,7 +15,7 @@ function WhitePaper() {
           <div className="text-sm text-zinc-500 leading-6">
             Clan Circle is a community platform that that helps user to get more
             interaction on their content and helps to maximized profit. We
-            ratinalized profit bewtween the users(both content creators and
+            rationalized profit bewtween the users(both content creators and
             users interacting with them). with our in-app promote systems we
             also help users or advertizers to meet their target audience. Our
             goal is to let all users make money using the net, doing what they
@@ -88,7 +88,7 @@ function WhitePaper() {
             each month, ad revenue is converted to{" "}
             <b>OCASH (1 OCASH = 1 USDT).</b> -
             <b>50% of OCASH is used to buy and burn $CLAN</b> (reducing supply
-            and increasing value). - The remaining OCASH is distributed among
+            and increasing value). - The remaining OCASH is distributed among{" "}
             <b>users, investors, and for platform maintenance.</b>
           </div>
 
@@ -117,12 +117,11 @@ function WhitePaper() {
           <div className="text-sm text-zinc-500 leading-6">
             <ul>
               <li>
-                Unlike platforms like Steemit and BAT, Circle does not require
-                content creation—just engagement.
+                Unlike platforms like Steemit and BAT, Clan Circle does not
+                require content creation—just engagement.
               </li>
               <li>
-                The automated
-                <b>click-to-earn</b>
+                The automated <b> click-to-earn </b>
                 model ensures passive monetization without additional user
                 effort.
               </li>
@@ -244,7 +243,7 @@ function WhitePaper() {
               </li>
               <li>
                 Funds raised will support
-                <b>marketing, liquidity, and platform expansion.</b>
+                <b> marketing, liquidity, and platform expansion.</b>
               </li>
             </ul>
           </div>
