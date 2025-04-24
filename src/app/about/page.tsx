@@ -21,9 +21,9 @@ function About() {
         <p className="text-sm text-zinc-500 leading-6">
           Clan Circle is a social engagement platform that allows users to
           create and follow Circles, share content, and earn rewards through
-          interactions. Whether you're looking to increase engagement, discover
-          new content, or grow your audience, Clan Circle makes it easy and
-          rewarding.
+          interactions. Whether you&#39;re looking to increase engagement,
+          discover new content, or grow your audience, Clan Circle makes it easy
+          and rewarding.
         </p>
 
         {/* How to Use */}
