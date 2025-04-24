@@ -22,16 +22,20 @@ export default function Home() {
           </p>
           <div className="flex gap-1 flex-wrap">
             <button className="rounded-full text-xs  bg-blue-800  h-7 w-20 p-2 text-white">
-              <a href="#playstore" aria-label="Get Started on Playstore">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle&pcampaignid=web_share"
+                aria-label="Get Started on Playstore"
+              >
                 Get Started
               </a>
             </button>
-            <button
+            <Link
+              href="/about"
               className="rounded-full text-xs bg-gray-800 h-7 w-20 p-2 text-white"
               aria-label="Learn more about Clan Circle"
             >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
         <div className="w-[40%]  flex justify-end">
@@ -185,15 +189,18 @@ export default function Home() {
           </h2>
           <div className="flex gap-1">
             <a
-              href="#playstore"
+              href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle&pcampaignid=web_share"
               className="rounded-full text-xs h-7 w-35 p-2 bg-blue-800 text-white text-center"
               aria-label="Get Started on Playstore"
             >
               Get Started
             </a>
-            <button className="rounded-full text-xs h-7 w-35 p-2 bg-gray-800 text-white">
+            <Link
+              href="/about"
+              className="rounded-full text-xs h-7 w-35 p-2 bg-gray-800 text-white"
+            >
               Explore Features
-            </button>
+            </Link>
           </div>
         </section>
         <section aria-labelledby="socials">
@@ -209,7 +216,11 @@ export default function Home() {
             </div>
 
             <div id="playstore">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle&pcampaignid=web_share"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   className="dark:invert"
                   src="/gg-play.png"
@@ -233,7 +244,6 @@ export default function Home() {
                 alt="facebook logo"
                 width={50}
                 height={10}
-                priority
               />
             </a>{" "}
             <a
@@ -247,7 +257,6 @@ export default function Home() {
                 alt="x logo"
                 width={50}
                 height={10}
-                priority
               />
             </a>{" "}
             <a
@@ -261,7 +270,6 @@ export default function Home() {
                 alt="instagram logo"
                 width={50}
                 height={10}
-                priority
               />
             </a>
             <a
@@ -275,7 +283,6 @@ export default function Home() {
                 alt="youtube logo"
                 width={50}
                 height={10}
-                priority
               />
             </a>
           </div>
