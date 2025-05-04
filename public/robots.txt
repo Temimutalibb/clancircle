@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://clancircle.mutalibb.xyz
+
+# Sitemaps
+Sitemap: https://clancircle.mutalibb.xyz/sitemap.xml
