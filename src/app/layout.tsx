@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Clan Circle - Boost Content with $CLAN",
   description:
     "Clan Circle helps users grow engagement through social sharing, check-ins, and rewards using $CLAN.",
+  verification: {
+    google: "2ZhzUpke-tmbnb6zxKRJ6J-3MYgC4SqQ1pu9zkAs5ig",
+  },
   keywords: [
     "Clan Circle",
     "$CLAN",
@@ -39,8 +42,10 @@ export const metadata: Metadata = {
         alt: "Clan Circle OG Image",
       },
     ],
+
     type: "website",
   },
+
   robots: "index, follow",
 };
 
