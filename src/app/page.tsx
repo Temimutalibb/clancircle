@@ -145,7 +145,7 @@ export default function Home() {
                 </a>
 
                 <div className="w-[200] h-[70] flex font-bold flex-row  gap-2 items-center rounded-xl bg-gray-100">
-                  <div className="ml-5">
+                  <div className=" h-[70] flex font-bold flex-row ml-5  gap-2 items-center rounded-xl bg-gray-100">
                     <Image
                       src="/web.png"
                       alt="Clan Circle logo"
@@ -333,15 +333,15 @@ export default function Home() {
           <div className="p-2 pl-0 text-center mb-1 mr-3 text-center tracking-[10px]">
             This is Clan Circle space
           </div>
-          <div className="flex items-center">
+          <div className="flex  w-[90%] items-center justify-between">
             <div
-              className="text-white text-[36px] mt-3 text-center tracking-[10px]"
+              className="text-white text-[36px] text-center tracking-[10px]"
               style={{ fontFamily: "Impact, sans-serif" }}
             >
               The Revolution has begun
             </div>
 
-            <div className="mt-10">
+            <div>
               <Image
                 src="/new512.png"
                 alt="Clan Circle logo"
@@ -387,7 +387,7 @@ export default function Home() {
             </a>
 
             <div className="w-[200] h-[75] flex font-bold flex-row  gap-2 items-center rounded-xl bg-gray-200">
-              <div className="ml-5">
+              <div className=" h-[70] flex font-bold flex-row ml-5  gap-2 items-center rounded-xl bg-gray-100">
                 <Image
                   src="/web.png"
                   alt="Clan Circle logo"
