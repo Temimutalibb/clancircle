@@ -128,9 +128,11 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="mt-5  gap-3  flex justify-between   items-center">
+
+              <div className="mt-5 gap-3 flex justify-between items-center">
+                {/* First Link */}
                 <a
-                  className="w-[200] h-[70]  items-center rounded-xl bg-gray-100"
+                  className="w-[200px] h-[70px] flex items-center justify-center rounded-xl bg-gray-100"
                   href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -141,11 +143,13 @@ export default function Home() {
                     width={200}
                     height={70}
                     priority
+                    className="object-contain"
                   />
                 </a>
 
+                {/* Second Link */}
                 <a
-                  className="w-[200] h-[70] flex font-bold justify-around  gap-2 items-center rounded-xl bg-gray-100"
+                  className="w-[200px] h-[70px] flex font-bold justify-around gap-2 items-center rounded-xl bg-gray-100"
                   href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -156,8 +160,9 @@ export default function Home() {
                     width={40}
                     height={40}
                     priority
+                    className="object-contain"
                   />
-                  <div className="text-gray-900  text-[18px]">Web</div>
+                  <div className="text-gray-900 text-[18px]">Web</div>
                 </a>
               </div>
             </div>
@@ -377,9 +382,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="m-5  gap-3  flex justify-between   items-center">
+          <div className="m-5 gap-3 flex justify-between items-center">
+            {/* First Link */}
             <a
-              className="w-[200] h-[70]  items-center rounded-xl bg-gray-100"
+              className="w-[200px] h-[70px] flex items-center justify-center rounded-xl bg-gray-100"
               href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle"
               target="_blank"
               rel="noopener noreferrer"
@@ -390,11 +396,13 @@ export default function Home() {
                 width={200}
                 height={70}
                 priority
+                className="object-contain"
               />
             </a>
 
+            {/* Second Link */}
             <a
-              className="w-[200] h-[70] flex font-bold justify-around  gap-2 items-center rounded-xl bg-gray-100"
+              className="w-[200px] h-[70px] flex font-bold justify-around gap-2 items-center rounded-xl bg-gray-100"
               href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle"
               target="_blank"
               rel="noopener noreferrer"
@@ -405,8 +413,9 @@ export default function Home() {
                 width={40}
                 height={40}
                 priority
+                className="object-contain"
               />
-              <div className="text-gray-900  text-[18px]">Web</div>
+              <div className="text-gray-900 text-[18px]">Web</div>
             </a>
           </div>
 
