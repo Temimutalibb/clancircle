@@ -128,9 +128,9 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="mt-5  gap-3  flex justify-between flex-row  items-center">
+              <div className="mt-5  gap-3  flex justify-between   items-center">
                 <a
-                  className="w-[200] h-[70] flex font-bold flex-row  gap-2 items-center rounded-xl bg-gray-100"
+                  className="w-[200] h-[70]  items-center rounded-xl bg-gray-100"
                   href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -139,23 +139,26 @@ export default function Home() {
                     src="/gg-play.webp"
                     alt="Clan Circle logo"
                     width={200}
-                    height={150}
+                    height={70}
                     priority
                   />
                 </a>
 
-                <div className="w-[200] h-[70] flex font-bold flex-row  gap-2 items-center rounded-xl bg-gray-100">
-                  <div className=" h-[70] flex font-bold flex-row ml-5  gap-2 items-center rounded-xl bg-gray-100">
-                    <Image
-                      src="/web.png"
-                      alt="Clan Circle logo"
-                      width={40}
-                      height={40}
-                      priority
-                    />
-                  </div>
+                <a
+                  className="w-[200] h-[70] flex font-bold justify-around  gap-2 items-center rounded-xl bg-gray-100"
+                  href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="/web.png"
+                    alt="Clan Circle logo"
+                    width={40}
+                    height={40}
+                    priority
+                  />
                   <div className="text-gray-900  text-[18px]">Web</div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -181,7 +184,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div
+            <Link
+              href="/how"
               style={{ backgroundColor: "#1E1E1E" }}
               className="w-[250] h-[150] p-1 cursor-pointer"
             >
@@ -198,9 +202,10 @@ export default function Home() {
               <div className="text-center p-1 font-bold">
                 How to use clan circle
               </div>
-            </div>
+            </Link>
 
-            <div
+            <Link
+              href="/who"
               style={{ backgroundColor: "#1E1E1E" }}
               className="w-[250] h-[150] cursor-pointer p-1"
             >
@@ -217,9 +222,10 @@ export default function Home() {
               <div className="text-center p-1 font-bold">
                 Who is Clan Circle for
               </div>
-            </div>
+            </Link>
 
-            <div
+            <Link
+              href="/airdrop"
               style={{ backgroundColor: "#1E1E1E" }}
               className="w-[250] h-[150] cursor-pointer p-1"
             >
@@ -236,7 +242,7 @@ export default function Home() {
               <div className="text-center p-1 font-bold">
                 Clan Circle Airdrop
               </div>
-            </div>
+            </Link>
           </div>
           {/**socials */}
           <div className="mb-10 mt-10  flex gap-8  items-center justify-center overflow-hidden">
@@ -325,6 +331,7 @@ export default function Home() {
             ))}
           </footer>
         </div>
+
         {/*mobile view*/}
         <div
           style={{ backgroundColor: "#1E252F" }}
@@ -370,9 +377,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="m-5  gap-3 flex justify-between flex-row   items-center">
+          <div className="m-5  gap-3  flex justify-between   items-center">
             <a
-              className="w-[200] h-[75] flex font-bold flex-row  gap-2 items-center rounded-xl bg-gray-200"
+              className="w-[200] h-[70]  items-center rounded-xl bg-gray-100"
               href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle"
               target="_blank"
               rel="noopener noreferrer"
@@ -381,23 +388,26 @@ export default function Home() {
                 src="/gg-play.webp"
                 alt="Clan Circle logo"
                 width={200}
-                height={150}
+                height={70}
                 priority
               />
             </a>
 
-            <div className="w-[200] h-[75] flex font-bold flex-row  gap-2 items-center rounded-xl bg-gray-200">
-              <div className=" h-[70] flex font-bold flex-row ml-5  gap-2 items-center rounded-xl bg-gray-100">
-                <Image
-                  src="/web.png"
-                  alt="Clan Circle logo"
-                  width={40}
-                  height={40}
-                  priority
-                />
-              </div>
+            <a
+              className="w-[200] h-[70] flex font-bold justify-around  gap-2 items-center rounded-xl bg-gray-100"
+              href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/web.png"
+                alt="Clan Circle logo"
+                width={40}
+                height={40}
+                priority
+              />
               <div className="text-gray-900  text-[18px]">Web</div>
-            </div>
+            </a>
           </div>
 
           {/*next box*/}
@@ -467,7 +477,8 @@ export default function Home() {
                 </div>
               </div>
 
-              <div
+              <Link
+                href="/how"
                 style={{ backgroundColor: "#1E1E1E" }}
                 className="w-[200] h-[140] p-1 cursor-pointer"
               >
@@ -484,11 +495,12 @@ export default function Home() {
                 <div className="text-center p-1 font-bold">
                   How to use clan circle
                 </div>
-              </div>
+              </Link>
             </div>
 
             <div className="flex flex justify-around mt-5 items-center">
-              <div
+              <Link
+                href="/who"
                 style={{ backgroundColor: "#1E1E1E" }}
                 className="w-[200] h-[140] p-1 cursor-pointer"
               >
@@ -505,7 +517,7 @@ export default function Home() {
                 <div className="text-center p-1 font-bold">
                   Who is Clan Circle for
                 </div>
-              </div>
+              </Link>
               <div
                 className="w-[150px] h-[150px]  gap-3 p-3 flex flex-col justify-center items-center"
                 style={{ backgroundColor: "#D9D9D9", borderRadius: "50%" }}
@@ -532,7 +544,8 @@ export default function Home() {
               <div className="w-[150px] h-[150px]  gap-3 p-3 flex flex-col justify-center items-center">
                 A universe where everyone gets paid
               </div>
-              <div
+              <Link
+                href="airdrop"
                 style={{ backgroundColor: "#1E1E1E" }}
                 className="w-[200] h-[140] p-1 cursor-pointer"
               >
@@ -549,7 +562,7 @@ export default function Home() {
                 <div className="text-center p-1 font-bold">
                   Clan Circle Airdrop
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
 
@@ -661,6 +674,13 @@ export default function Home() {
               rewarded for doing so. There is no limit to what we can achieve.
               We are building and improving every day.
             </div>
+
+            <div className="w-[100] m-auto p-3 h-[95]">
+              <Link href="/about" className="bg-blue-500  ">
+                See more
+              </Link>
+            </div>
+
             <div
               onClick={() => setShowWhate(!showWhat)}
               className="w-[74] m-auto p-3 h-[95]"

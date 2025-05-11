@@ -18,91 +18,97 @@ function About() {
         </div>
 
         {/* Introduction */}
-        <p className="text-sm text-zinc-500 leading-6">
-          Clan Circle is a social engagement platform that allows users to
-          create and follow Circles, share content, and earn rewards through
-          interactions. Whether you&#39;re looking to increase engagement,
-          discover new content, or grow your audience, Clan Circle makes it easy
-          and rewarding.
+        <h2 className="font-bold text-lg">What is Clan Circle?</h2>
+        <p className="text-sm text-zinc-900 leading-6">
+          <b>Clan Circle</b> is a community-driven app designed to help users
+          boost their online engagement—and more importantly—make money while
+          doing it. In today’s digital world, ads generate billions of dollars
+          for big platforms. While a portion of that revenue goes to content
+          creators, the everyday fans who support and interact with this content
+          often earn nothing. Also, creators with lower engagement struggle to
+          benefit from the ecosystem. <b>Clan Circle is here to change that.</b>
+        </p>
+        <hr />
+        <h2 className="font-bold text-lg">The Problem We&#39;re Solving</h2>
+        <p className="text-sm text-zinc-900 leading-6">
+          We believe everyone who spends time online—liking, watching,
+          sharing—deserves to benefit from that activity. The current system
+          mainly rewards big creators and ad networks. But what about the fans
+          who make content go viral? What about smaller creators who need
+          support to grow? That’s where we come in.
+        </p>
+        <hr />
+
+        <h2 className="font-bold text-lg">How Clan Circle Works</h2>
+        <section>
+          <ul className="text-sm text-zinc-900 leading-6 list-disc list-inside space-y-1">
+            <li>
+              <b>Community-Powered Engagement: </b> Users join or create circles
+              around their favorite content. By sharing links and engaging with
+              each other’s posts, everyone boosts visibility and
+              traffic—together.
+            </li>
+
+            <li>
+              <b>Earning While Clicking:</b>When users click on shared links,
+              both the clicker and the content sharer earn in-app coins called
+              $CLANCOIN.
+            </li>
+            <li>
+              <b>Check-in System:</b> Users can “check in” every 15 minutes to
+              unlock new links and increase their earning chances.
+            </li>
+            <li>
+              <b>Ad Revenue as a Backbone:</b> Our platform shows in-app ads.
+              When users view or interact with these ads, we share the revenue
+              with them. This creates a fair ecosystem where time and attention
+              are rewarded.
+            </li>
+          </ul>
+        </section>
+        <hr />
+
+        <section>
+          <h3 className="font-bold text-lg">The Vision of $CLAN Coins</h3>
+          <p className="text-sm text-zinc-900 leading-6">
+            $CLAN is more than just an in-app currency. It’s built to become a
+            real cryptocurrency backed by ad revenue. This ensures that the coin
+            has genuine, stable value. Users will be able to:
+          </p>
+          <ul className="text-sm text-zinc-900 leading-6 list-disc list-inside space-y-1">
+            <li>
+              Use $CLAN to purchase items and access premium features in the
+              app.
+            </li>
+            <li>Convert $CLAN to other cryptocurrencies.</li>
+            <li>
+              Benefit from a burn-and-earn model where coins are periodically
+              burned to preserve value.
+            </li>
+          </ul>
+          <p className=" text-sm mt-3">
+            Ads will contribute to over 60% of $CLAN’s value structure, meaning
+            your attention is directly tied to the coin’s strength.
+          </p>
+        </section>
+
+        <hr />
+        <h3 className="font-semibold  text-base mb-2 ">
+          A Fair Reward System for All
+        </h3>
+        <p className="text-sm text-zinc-900 leading-6">
+          We’ve designed Clan Circle to reward effort and consistency. The more
+          active you are—clicking, checking in, sharing, watching ads—the more
+          you earn. Everyone gets rewarded fairly based on what they contribute.
+          No user is left out. Every active member earns. That’s our promise.
         </p>
 
-        {/* How to Use */}
-
-        <h2 className="font-bold text-lg">How to Use Clan Circle</h2>
-
-        {/* Create Circle */}
-        <div className="flex space-y-4 sm:space-y-0 sm:space-x-4 flex-col sm:flex-row">
-          <div className="space-y-4 flex-1">
-            <section>
-              <h3 className="font-semibold text-base">
-                How to Create a Circle
-              </h3>
-              <ul className="text-sm text-zinc-500 leading-6 list-disc list-inside space-y-1">
-                <li>
-                  Click on <b>MyCircle</b> on the homepage.
-                </li>
-                <li>View all your circles or create a new one.</li>
-                <li>
-                  Click the <b>Add</b> icon.
-                </li>
-                <li>Enter a circle name and description.</li>
-                <li>Set a unique identifier for easy search.</li>
-                <li>Choose if only you can post, or allow others too.</li>
-                <li>
-                  Click <b>Done</b> to create the circle.
-                </li>
-                <li>Click on the circle to start posting links.</li>
-              </ul>
-            </section>
-
-            <section>
-              <h3 className="font-semibold text-base mt-4">
-                How to Create a Link
-              </h3>
-              <ul className="text-sm text-zinc-500 leading-6 list-disc list-inside space-y-1">
-                <li>Select a circle that allows link posting.</li>
-                <li>
-                  Click the <b>Post Link Here</b> button.
-                </li>
-                <li>Select the platform where your content is hosted.</li>
-                <li>Paste the content URL.</li>
-                <li>Choose the type and category of your content.</li>
-                <li>Name your link for easier recognition.</li>
-                <li>Add a short description.</li>
-                <li>
-                  Click <b>Post</b>.
-                </li>
-                <li>
-                  Posting a link costs 100 $CLAN – part of the token burn
-                  system.
-                </li>
-              </ul>
-            </section>
-          </div>
-
-          {/* Image Section */}
-          <div className="mt-4 sm:mt-4">
-            <h3 className="font-semibold text-base mb-2  sm:text-center">
-              Circle screen preview
-            </h3>
-            <div className="rounded-xl sm:overflow-hidden sm:shadow-md">
-              <Image
-                src="/mycircle.jpg" // replace with actual image path
-                alt="Phone Home Page"
-                width={250}
-                height={400}
-                className=" object-cover w-64 sm:h-96  sm:w-full sm:h-auto"
-              />
-            </div>
-          </div>
-        </div>
-
-        {/* Create Link */}
+        <hr />
 
         {/* Earn Coins */}
         <section>
           <h3 className="font-semibold text-base mt-4">How to Earn Coins</h3>
-          <ul className="text-sm text-zinc-500 leading-6 list-disc list-inside space-y-1">
+          <ul className="text-sm text-zinc-900 leading-6 list-disc list-inside space-y-1">
             <li>
               Check in on the <b>Daily Task</b> screen every hour.
             </li>
@@ -178,6 +184,20 @@ function About() {
               />
             </div>
           </div>
+        </div>
+
+        <div className="mt-4 sm:mt-4">
+          <h3 className="font-semibold text-base mb-2">
+            Final Words: We Rise Together
+          </h3>
+          <p className="text-sm text-zinc-900 leading-6">
+            Clan Circle is more than just an app. It’s a movement to
+            redistribute digital wealth, empower under-supported creators, and
+            reward fans for the value they’ve always brought. Whether you’re a
+            content creator, social media lover, or just someone who scrolls a
+            lot—we’re bringing the opportunity to your fingertips. Welcome to
+            Clan Circle. Less talk. More action. More value. Together.
+          </p>
         </div>
 
         {/* Help Section */}
