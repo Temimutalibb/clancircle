@@ -345,22 +345,12 @@ export default function Home() {
           <div className="p-2 pl-0 text-center mb-1 mr-3 text-center tracking-[10px]">
             This is Clan Circle space
           </div>
-          <div className="flex  w-[90%] items-center justify-between">
+          <div className="flex  w-[100%] items-center justify-between">
             <div
               className="text-white text-[36px] text-center tracking-[10px]"
               style={{ fontFamily: "Impact, sans-serif" }}
             >
               The Revolution has begun
-            </div>
-
-            <div>
-              <Image
-                src="/new512.png"
-                alt="Clan Circle logo"
-                width={120}
-                height={120}
-                priority
-              />
             </div>
           </div>
 
@@ -402,7 +392,7 @@ export default function Home() {
 
             {/* Second Link */}
             <a
-              className="w-[200px] h-[70px] flex font-bold justify-around gap-2 items-center rounded-xl bg-gray-100"
+              className="w-[200px] h-[70px] flex font-bold justify-center gap-2 items-center rounded-xl bg-gray-100"
               href="https://play.google.com/store/apps/details?id=com.mutalibb.clancircle"
               target="_blank"
               rel="noopener noreferrer"
