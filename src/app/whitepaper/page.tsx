@@ -33,16 +33,15 @@ function WhitePaper() {
           </div>
           <h2 className="font-bold text-l">1.1 Executive Summary</h2>
           <div className="text-sm text-zinc-500 leading-6">
-            Clan Circle is a blockchain-powered platform designed to empower
-            internet users by converting social media engagement into tangible
-            rewards. By sharing social media links within “Circles,” users earn
-            $CLAN tokens with every click. This unique ecosystem not only boosts
-            engagement but also guarantees monetization even when traditional
-            social platforms fall short. Revenue from in-app advertisements is
-            converted to OCASH (pegged to 1 USDT), with a portion used to buy
-            and burn $CLAN tokens—helping to control inflation—while the
-            remainder is reinvested in the platform and distributed among users,
-            investors, and for app maintenance.
+            Clan Circle is a blockchain-powered platform that rewards users for
+            meaningful online engagement. Users can earn $CLNC tokens each time
+            they take part in activities like clicking links, when links in
+            their personal Circle are clicked, completing daily tasks, checking
+            in, or using integrated services like BlogIT or InkNFT. A portion of
+            in-app ad revenue is used to acquire $CLNC, which is then
+            distributed to users based on their activity. This ensures a fair
+            reward system while supporting continuous platform growth and
+            maintenance.
           </div>
 
           <h2 className="font-bold text-xl">2. Problem Statement</h2>
@@ -77,19 +76,20 @@ function WhitePaper() {
                 content.
               </li>
               <li>
-                <b>Each click generates $CLAN</b>, rewarding engagement and
+                <b>Each click generates $CLNC</b>, rewarding engagement and
                 interaction.
               </li>
             </ol>
           </div>
-          <h2 className="font-bold text-l">3.2 Revenue Model & OCASH System</h2>
+          <h2 className="font-bold text-l">3.2 Revenue Model</h2>
           <div className="text-sm text-zinc-500 leading-6">
-            - The platform displays ads to generate revenue. - At the end of
-            each month, ad revenue is converted to{" "}
-            <b>OCASH (1 OCASH = 1 USDT).</b> -
-            <b>50% of OCASH is used to buy and burn $CLAN</b> (reducing supply
-            and increasing value). - The remaining OCASH is distributed among{" "}
-            <b>users, investors, and for platform maintenance.</b>
+            -The platform displays ads to generate revenue. Users earn coins by
+            engaging with the platform. At the end of each month, total ad
+            revenue is calculated, and <b>$CLNC</b> tokens are distributed to
+            users based on the number of coins they’ve earned. A portion of the
+            revenue is also used to buy and burn $CLNC tokens, helping reduce
+            supply and increase value. The rest is allocated for{" "}
+            <b>investors and platform maintenance.</b>
           </div>
 
           <h2 className="font-bold text-xl">
@@ -108,26 +108,9 @@ function WhitePaper() {
                 user-generated ad revenue models.{" "}
               </li>
               <li>
-                Circle leverages this demand by creating a decentralized, fair,
-                and transparent way for users to earn from social interactions.
-              </li>
-            </ul>
-          </div>
-          <h2 className="font-bold text-l">4.2 Competitive Advantage</h2>
-          <div className="text-sm text-zinc-500 leading-6">
-            <ul>
-              <li>
-                Unlike platforms like Steemit and BAT, Clan Circle does not
-                require content creation—just engagement.
-              </li>
-              <li>
-                The automated <b> click-to-earn </b>
-                model ensures passive monetization without additional user
-                effort.
-              </li>
-              <li>
-                Built-in <b>ad revenue and token burning </b> mechanisms create
-                long-term sustainability.
+                Clan Circle leverages this demand by creating a decentralized,
+                fair, and transparent way for users to earn from social
+                interactions.
               </li>
             </ul>
           </div>
@@ -135,14 +118,14 @@ function WhitePaper() {
           <h2 className="font-bold text-xl">5.Tokenomics</h2>
           <h2 className="font-bold text-l">5.1Token Utility</h2>
           <div className="text-sm text-zinc-500 leading-6">
-            $CLAN serves multiple purposes within the ecosystem:
+            $CLNC serves multiple purposes within the ecosystem:
             <ul>
               <li>
-                <b>Rewards for Engagement-</b> Users earn $CLAN when their links
-                receive clicks.
+                <b>Rewards for Engagement-</b> Users earn $CLNC by clicking
+                links and participating in various activities within the app.
               </li>
               <li>
-                <b>Premium Services –</b> Users can spend $CLAN to:
+                <b>Premium Services –</b> Users can spend $CLNC to:
                 <ul>
                   <li> Create more than three Circles.</li>
                   <li>
@@ -154,7 +137,7 @@ function WhitePaper() {
               <li></li>
               <li>
                 <b>Burn Mechanism-</b>A portion of ad revenue is used to buy and
-                burn $CLAN, controlling inflation.
+                burn $CLNC, controlling inflation.
               </li>
             </ul>
           </div>
@@ -162,28 +145,23 @@ function WhitePaper() {
           <div className="text-sm text-zinc-500 leading-6">
             <ul>
               <li>
-                <b>Blockchain:</b> Binance Smart Chain (BEP-20) for low fees and
-                fast transactions.
+                <b>Blockchain:</b> We are currently exploring different
+                blockchain platforms to select the best option that offers low
+                fees, high throughput, and fast transaction speeds, ensuring an
+                optimal user experience.
               </li>
               <li>
                 <b>Supply:</b>
-                Unlimited, but regulated through controlled burns.{" "}
+                Unlimited total supply, with an initial fixed amount released to
+                users. Additional tokens are minted and distributed over time,
+                regulated by controlled burns to maintain value.
               </li>
               <li>
                 <b>Distribution:</b>
 
                 <ul>
                   <li>
-                    <b>Airdrops & Rewards:</b> 40%{" "}
-                  </li>
-                  <li>
-                    <b>Investor Allocation:</b> 30%{" "}
-                  </li>
-                  <li>
-                    <b>Marketing & Development:</b> 20%{" "}
-                  </li>
-                  <li>
-                    <b>Team & Advisors:</b> 10%
+                    <b>Airdrops & Rewards:</b> 20%{" "}
                   </li>
                 </ul>
               </li>
@@ -214,14 +192,11 @@ function WhitePaper() {
           <div className="text-sm text-zinc-500 leading-6">
             <ul>
               <li>
-                Compliance with <b>Binance Smart Chain guidelines.</b>
-              </li>
-              <li>
                 Ongoing legal review to ensure adherence to{" "}
                 <b>*global cryptocurrency regulations.</b>
               </li>
               <li>
-                $CLAN will not be a security token but rather a{" "}
+                $CLNC will not be a security token but rather a{" "}
                 <b>utility token</b> for transactions within the platform.
               </li>
             </ul>
@@ -321,14 +296,11 @@ function WhitePaper() {
           <div className="text-sm text-zinc-500 leading-6">
             <ul>
               <li>
-                <b>Q2 2025:</b> Smart contract deployment & beta testing.
+                <b>Q3 2025:</b> Smart contract deployment & beta testing.
               </li>
               <li>
-                <b>Q3 2025:</b>
-                ICO launch & DEX listing.
-              </li>
-              <li>
-                <b> Q4 2025:</b> Ad system integration & user acquisition.
+                <b>Q4 2025:</b>
+                DEX listing.
               </li>
               <li>
                 <b>2026:</b> CEX listing & global expansion.
@@ -340,7 +312,7 @@ function WhitePaper() {
           <div className="text-sm text-zinc-500 leading-6">
             Clan Circle is redefining social media engagement by ensuring every
             user benefits from interactions. With a sustainable tokenomics
-            model, an active burn mechanism, and an investor-friendly ICO, $CLAN
+            model, an active burn mechanism, and an investor-friendly ICO, $CLNC
             presents a compelling opportunity for both users and investors
             alike.
           </div>

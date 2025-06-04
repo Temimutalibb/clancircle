@@ -33,7 +33,7 @@ function Airdrop() {
         <p className="text-sm text-zinc-900 leading-6">
           The airdrop is our way of rewarding the most active and early users of
           the Clan Circle app. As you interact, share, check in, and grow the
-          community, you’ll earn $CLANCOIN coins that will later be converted to
+          community, you’ll earn $CLNC coins that will later be converted to
           real cryptocurrency. Your early effort = future value.
         </p>
         <hr />
@@ -92,7 +92,7 @@ function Airdrop() {
         </h2>
         <p className="text-sm text-zinc-900 leading-6">
           All airdropped coins will reflect in your in-app balance immediately.
-          Once $CLAN officially launches on the blockchain, your balance will
+          Once $CLNC officially launches on the blockchain, your balance will
           become tradable and usable outside the app—either for crypto swaps,
           purchases, or holding for long-term value.
         </p>

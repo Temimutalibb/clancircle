@@ -52,7 +52,7 @@ function About() {
             <li>
               <b>Earning While Clicking:</b>When users click on shared links,
               both the clicker and the content sharer earn in-app coins called
-              $CLANCOIN.
+              $CLNC.
             </li>
             <li>
               <b>Check-in System:</b> Users can “check in” every 15 minutes to
@@ -71,7 +71,7 @@ function About() {
         <section>
           <h3 className="font-bold text-lg">The Vision of $CLAN Coins</h3>
           <p className="text-sm text-zinc-900 leading-6">
-            $CLAN is more than just an in-app currency. It’s built to become a
+            $CLNC is more than just an in-app currency. It’s built to become a
             real cryptocurrency backed by ad revenue. This ensures that the coin
             has genuine, stable value. Users will be able to:
           </p>
@@ -87,7 +87,7 @@ function About() {
             </li>
           </ul>
           <p className=" text-sm mt-3">
-            Ads will contribute to over 60% of $CLAN’s value structure, meaning
+            Ads will contribute to over 60% of $CLNC’s value structure, meaning
             your attention is directly tied to the coin’s strength.
           </p>
         </section>
