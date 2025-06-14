@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   keywords: [
     "Clan Circle",
-    "$CLAN",
+    "$CLNC",
     "check-in",
     "social boost",
     "engagement tool",
@@ -30,12 +30,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Clan Circle",
     description:
-      "Clan Circle is a content engagement platform where users earn $CLAN coins by sharing and clicking social links. Boost your visibility, join circles, and stay notified with push alerts and check-ins.",
+      "Clan Circle is a content engagement platform where users earn $CLNC coins by sharing and clicking social links. Boost your visibility, join circles, and stay notified with push alerts and check-ins.",
     url: "https://clancircle.mutalibb.xyz",
     siteName: "Clan Circle",
     images: [
       {
-        url: "/new506.png", // make sure this image exists in /public
+        url: "/new506.png",
         width: 1200,
         height: 630,
         alt: "Clan Circle OG Image",
