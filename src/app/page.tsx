@@ -674,15 +674,18 @@ export default function Home() {
               We are building and improving every day.
             </div>
 
-            <div className="w-[100] m-auto p-3 h-[95]">
-              <Link href="/about" className="bg-blue-500  ">
+            <div className="w-full flex justify-center p-3">
+              <Link
+                href="/about"
+                className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+              >
                 See more
               </Link>
             </div>
 
             <div
               onClick={() => setShowWhate(!showWhat)}
-              className="w-[74] m-auto p-3 h-[95]"
+              className="flex justify-center p-3 cursor-pointer"
             >
               <Image
                 src="/cancel.png"

@@ -20,7 +20,7 @@ function Airdrop() {
         </h2>
         <p className="text-sm text-zinc-900 leading-6">
           We’re excited to announce the Clan Circle Airdrop – your first chance
-          to start earning $CLAN coins before they go live on the blockchain.
+          to start earning $CLNC coins before they go live on the blockchain.
           <span className="text-zinc-500">
             This isn’t just a giveaway—it’s an invitation to become an early
             supporter of a platform that values your time, your clicks, and your
