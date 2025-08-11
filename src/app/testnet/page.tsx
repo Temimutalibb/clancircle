@@ -24,7 +24,7 @@ export default function WithdrawForm() {
     }
 
     try {
-      const res = await fetch("https://clnctestnet.vercel.app//withdraw", {
+      const res = await fetch("https://clnctestnet.vercel.app/withdraw", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
