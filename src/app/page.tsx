@@ -317,6 +317,23 @@ export default function Home() {
               />
             </a>
           </div>
+          {/*testnet*/}
+          <section className="max-w-xl mx-auto bg-blue-50 rounded-lg p-8 text-center mt-16 shadow-md">
+            <h2 className="text-3xl font-bold text-blue-700 mb-4">
+              Join Our Testnet Adventure!
+            </h2>
+            <p className="text-gray-700 mb-6">
+              Be among the first to test our custom token on the Sui testnet.
+              Provide feedback, discover features, and help us improve before
+              mainnet launch.
+            </p>
+            <Link
+              href="/testnet"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300"
+            >
+              Get Started on Testnet
+            </Link>
+          </section>
           {/* Footer Section */}
           <footer className="mt-10  m-auto flex p-5 w-[80%] gap-6 flex-wrap items-center justify-around">
             {[
@@ -564,6 +581,24 @@ export default function Home() {
               </Link>
             </div>
           </div>
+
+          {/*testnet*/}
+          <section className="max-w-xl mx-auto bg-blue-50 rounded-lg p-8 text-center mt-16 shadow-md">
+            <h2 className="text-3xl font-bold text-blue-700 mb-4">
+              Join Our Testnet Adventure!
+            </h2>
+            <p className="text-gray-700 mb-6">
+              Be among the first to test our custom token on the Sui testnet.
+              Provide feedback, discover features, and help us improve before
+              mainnet launch.
+            </p>
+            <Link
+              href="/testnet"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300"
+            >
+              Get Started on Testnet
+            </Link>
+          </section>
 
           {/**socials */}
           <div className=" mb-10 mt-20  flex gap-5  items-center justify-center overflow-hidden">
